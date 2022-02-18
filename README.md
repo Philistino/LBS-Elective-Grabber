@@ -9,7 +9,7 @@ Run this script to refresh the Enrolment Management System webpage and automatic
 # To get started
 This was tested with python 3.9, but it should work with python 3.6+. Pick your flavour of chromedriver and set that up however you want.
 - pip install -r requirements.txt
-- Rename "example_config.toml" -> "config.toml" and update with your details.
+- Update config.toml with your details.
 - For ultimate uptime, I recommend running on an always-on linux box, such as a cloud compute instance (oracle free tier is fine), with chrome driver in a docker container.
   - For a simpler approach, one can run this script on their laptop/desktop with Chrome and chromedriver (https://chromedriver.chromium.org/downloads).
 - On linux (and maybe macOS), use nohup to prevent script from stopping when logging out. For example:

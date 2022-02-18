@@ -1,0 +1,15 @@
+# EMS details
+lbs_email_address = "rickdeckard.mba2049@london.edu" # Email address provided by LBS
+lbs_password = "password123" # Password to LBS account that you usually use to log in
+page_refresh_interval = 10 # Refresh page every _ seconds
+
+
+# notification emailer details
+notification_send_to_email = "rickdeckard.mba2049@london.edu" # Email address to send notifications to
+notification_sender_email = "NotificationSender@gmail.com" # Email address to send notifications from. See https://realpython.com/python-send-email/
+notification_sender_password = "password123" # Password to sender email address 
+
+# webdriver settings
+use_remote_webdriver = true # True if running in docker container, false if using local path to webdriver bin 
+url_to_webdriver = "http://localhost:4444" # Use if running in docker container
+local_path_to_webdriver = "C:\\chromedriver.exe" # Use if running locally without docker

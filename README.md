@@ -13,7 +13,7 @@ This was tested with python 3.9, but it should work with python 3.6+. Pick your 
 - For ultimate uptime, I recommend running on an always-on linux box, such as a cloud compute instance (oracle free tier is fine), with chromedriver in a docker container.
   - For a simpler approach, one can run this script on their laptop/desktop with Chrome and chromedriver (https://chromedriver.chromium.org/downloads).
 - On linux (and maybe macOS), use nohup to prevent script from stopping when logging out. For example:
-  - nohup python3.9 lbs_elective_grabber.py
+  - nohup venv/bin/python lbs_elective_grabber.py
 
 # Notes
 - Don't be a jerk and get in the way of other students' trades. Everyone struggles to get the courses they want.

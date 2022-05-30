@@ -2,7 +2,7 @@
 Digital Investing, Leading Teams and Organizations, Paths to Power, Negotiation and Bargaining, Distressed Investing...
 
 Want the ultimate electives schedule?
-Sick of wasting countless hours fighting for the schedule your want? 
+Sick of wasting countless hours fighting for the schedule you want? 
 
 Run this script to refresh the Enrolment Management System webpage and automatically add courses from your shortlist.
 
